@@ -12,6 +12,8 @@ class BSTree {
         } 
     } 
   
+    
+    
     void insert(Node node, int value) {
         if (value < node.value) 
         {
@@ -152,27 +154,10 @@ class BSTree {
         baketEtoPa.insert(root, 14);
         baketEtoPa.insert(root, 12);
         baketEtoPa.insert(root, 3);
-    
-    
-        System.out.println();
-        System.out.println();
         baketEtoPa.preorder(root);
-        System.out.println();
-        System.out.println();
         baketEtoPa.inorder(root);
-        System.out.println();
-        System.out.println();
         baketEtoPa.postorder(root);
-        
-        
-        
         baketEtoPa.delete(root, 4);
-        
-        
-        
-        
-        System.out.println();
-        System.out.println();
         baketEtoPa.preorder(root);
         
     }
