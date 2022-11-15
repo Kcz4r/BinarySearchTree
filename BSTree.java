@@ -221,36 +221,18 @@ class BSTree
 
     public static void main(String[] args) 
     {
-        BSTree baketEtoPa = new BSTree();
+        BSTree tree = new BSTree();
         root = new Node(7);
-        baketEtoPa.insert(root, 2);
-        baketEtoPa.insert(root, 1);
-        baketEtoPa.insert(root, 10);
-        baketEtoPa.insert(root, 9);
-        baketEtoPa.insert(root, 4);
-        baketEtoPa.insert(root, 6);
-        baketEtoPa.insert(root, 13);
-        baketEtoPa.insert(root, 14);
-        baketEtoPa.insert(root, 12);
-        baketEtoPa.insert(root, 3);
-    
-    
-        
-        baketEtoPa.preorder(root);
-        
-        
-        
-        
-        
-        
-        
-        System.out.println();
-        System.out.println();
-        baketEtoPa.inorder(root);
-        
-        System.out.println();
-        System.out.println();
-        baketEtoPa.postorder(root);
+        tree.insert(root, 2);
+        tree.insert(root, 1);
+        tree.insert(root, 10);
+        tree.insert(root, 9);
+        tree.insert(root, 4);
+        tree.insert(root, 6);
+        tree.insert(root, 13);
+        tree.insert(root, 14);
+        tree.insert(root, 12);
+        tree.insert(root, 3);
     }
 
 }
